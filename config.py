@@ -7,7 +7,9 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # apihub.kma.go.kr 회원가입(휴대폰 인증 필요) 후 발급받는 인증키
-KMA_AUTH_KEY = os.getenv("KMA_AUTH_KEY", "")
+# .strip(): GitHub Secrets에 값을 붙여넣을 때 끝에 줄바꿈이 같이 들어가는 경우가 흔해서,
+#            여기서 자동으로 제거해 인증 실패(401)를 예방한다.
+KMA_AUTH_KEY = os.getenv("KMA_AUTH_KEY", "").strip()
 
 # 1.3 태풍정보+예측(시점기준) - 실시간 폴링용 메인 엔드포인트
 KMA_TYP_NOW_URL = "https://apihub.kma.go.kr/api/typ01/url/typ_now.php"
@@ -25,15 +27,22 @@ POLL_INTERVAL_SEC = int(os.getenv("POLL_INTERVAL_SEC", "600"))
 DB_PATH = os.getenv("DB_PATH", "typhoon_state.json")
 
 # Firebase 프로젝트 ID (FCM HTTP v1 API 사용)
-FCM_PROJECT_ID = os.getenv("FCM_PROJECT_ID", "")
+FCM_PROJECT_ID = os.getenv("FCM_PROJECT_ID", "").strip()
 
 # 방법 A) 로컬 실행용: 서비스 계정 키 JSON '파일 경로'
-FCM_SERVICE_ACCOUNT_FILE = os.getenv("FCM_SERVICE_ACCOUNT_FILE", "service-account.json")
+FCM_SERVICE_ACCOUNT_FILE = os.getenv("FCM_SERVICE_ACCOUNT_FILE", "service-account.json").strip()
 
 # 방법 B) GitHub Actions 등: 서비스 계정 키 JSON '내용 자체'를 시크릿으로 주입 (파일 불필요)
-FCM_SERVICE_ACCOUNT_JSON = os.getenv("FCM_SERVICE_ACCOUNT_JSON", "")
+FCM_SERVICE_ACCOUNT_JSON = os.getenv("FCM_SERVICE_ACCOUNT_JSON", "").strip()
 
-FCM_TOPIC = os.getenv("FCM_TOPIC", "typhoon_alerts")
+FCM_TOPIC = os.getenv("FCM_TOPIC", "typhoon_alerts").strip()
+
+# ── 웹 푸시(Web Push, Firebase 불필요) ──────────────────────────────
+# VAPID 개인키(PEM 전체 내용)와, 웹페이지에서 "알림 켜기"로 받은 구독 정보(JSON)를
+# GitHub Secrets로 주입한다. 이 값이 있으면 FCM 없이도 브라우저로 바로 알림이 간다.
+VAPID_PRIVATE_KEY_PEM = os.getenv("VAPID_PRIVATE_KEY_PEM", "").strip()
+PUSH_SUBSCRIPTION_JSON = os.getenv("PUSH_SUBSCRIPTION_JSON", "").strip()
+VAPID_CLAIMS_EMAIL = os.getenv("VAPID_CLAIMS_EMAIL", "mailto:example@example.com").strip()
 
 # 응답 원문을 콘솔에 그대로 찍어서 파싱 형식을 눈으로 확인하고 싶을 때 True로
 DEBUG_RAW_RESPONSE = os.getenv("DEBUG_RAW_RESPONSE", "0") == "1"

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>태풍 알림</title>
+<style>
+  body { font-family: -apple-system, sans-serif; max-width: 640px; margin: 40px auto; padding: 0 16px; color: #222; }
+  h1 { font-size: 20px; }
+  .card { border: 1px solid #ddd; border-radius: 10px; padding: 16px; margin-bottom: 12px; }
+  .card h3 { margin: 0 0 6px; }
+  .muted { color: #777; font-size: 13px; }
+  button { padding: 10px 16px; border-radius: 8px; border: 1px solid #333; background: #111; color: #fff; font-size: 14px; cursor: pointer; }
+  button:disabled { opacity: 0.5; cursor: default; }
+  #status { margin: 12px 0; font-size: 14px; }
+  textarea { width: 100%; height: 120px; margin-top: 8px; font-family: monospace; font-size: 12px; }
+  .empty { color: #777; }
+</style>
+</head>
+<body>
+  <h1>태풍 현황</h1>
+  <p class="muted" id="lastRun">불러오는 중...</p>
+
+  <button id="subscribeBtn">알림 켜기</button>
+  <p id="status"></p>
+  <textarea id="subBox" style="display:none" readonly></textarea>
+  <p class="muted" id="subHelp" style="display:none">
+    이 내용을 통째로 복사해서 GitHub 저장소 Secrets의 <code>PUSH_SUBSCRIPTION</code> 값으로 등록하면 알림이 켜집니다.
+  </p>
+
+  <div id="list" style="margin-top:24px"></div>
+
+<script>
+// 이 값은 비밀키가 아니라 공개키라서 코드에 그대로 있어도 안전합니다.
+const VAPID_PUBLIC_KEY = "BN9fUAVHsfc5-trDgVI2v6dgNMdlF1eM7NKH9XqsQpsd61VIkEx--Ovq3QSpTIk3PSXR7ZI_s5eqUASln-vkR58";
+
+function urlBase64ToUint8Array(base64String) {
+  const padding = "=".repeat((4 - base64String.length % 4) % 4);
+  const base64 = (base64String + padding).replace(/-/g, "+").replace(/_/g, "/");
+  const rawData = atob(base64);
+  return Uint8Array.from([...rawData].map(c => c.charCodeAt(0)));
+}
+
+async function loadStatus() {
+  try {
+    const res = await fetch("typhoon_state.json?_=" + Date.now());
+    const data = await res.json();
+    const list = document.getElementById("list");
+    const entries = Object.entries(data.known_typhoons || {});
+    if (entries.length === 0) {
+      list.innerHTML = '<p class="empty">현재 기록된 태풍이 없습니다.</p>';
+    } else {
+      list.innerHTML = entries.map(([id, t]) => `
+        <div class="card">
+          <h3>${t.name_kr || "이름 미상"} (${t.name_en || ""})</h3>
+          <p class="muted">번호 ${id} · 최초 감지 UTC ${t.first_seen_tm_fc || "-"}</p>
+        </div>
+      `).join("");
+    }
+  } catch (e) {
+    document.getElementById("list").innerHTML = '<p class="empty">상태 파일을 아직 불러올 수 없습니다 (첫 실행 전이거나 Pages 배포 중).</p>';
+  }
+  try {
+    const res2 = await fetch("last_run.json?_=" + Date.now());
+    const info = await res2.json();
+    document.getElementById("lastRun").textContent = "마지막 확인: " + info.last_run_utc + " UTC (" + (info.ok ? "정상" : "오류") + ")";
+  } catch (e) {
+    document.getElementById("lastRun").textContent = "";
+  }
+}
+
+async function subscribe() {
+  const statusEl = document.getElementById("status");
+  if (!("serviceWorker" in navigator) || !("PushManager" in window)) {
+    statusEl.textContent = "이 브라우저는 웹 푸시를 지원하지 않습니다.";
+    return;
+  }
+  const permission = await Notification.requestPermission();
+  if (permission !== "granted") {
+    statusEl.textContent = "알림 권한이 거부되었습니다.";
+    return;
+  }
+  const reg = await navigator.serviceWorker.register("sw.js");
+  await navigator.serviceWorker.ready;
+  const sub = await reg.pushManager.subscribe({
+    userVisibleOnly: true,
+    applicationServerKey: urlBase64ToUint8Array(VAPID_PUBLIC_KEY),
+  });
+  const subBox = document.getElementById("subBox");
+  subBox.style.display = "block";
+  subBox.value = JSON.stringify(sub);
+  document.getElementById("subHelp").style.display = "block";
+  statusEl.textContent = "구독 생성 완료! 아래 내용을 복사해서 등록하세요.";
+}
+
+document.getElementById("subscribeBtn").addEventListener("click", subscribe);
+loadStatus();
+setInterval(loadStatus, 5 * 60 * 1000);
+</script>
+</body>
+</html>
