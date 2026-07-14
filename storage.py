@@ -40,10 +40,30 @@ def is_new_typhoon(typ_seq: str) -> bool:
     return typ_seq not in _load()["known_typhoons"]
 
 
-def register_typhoon(typ_seq: str, name_kr: str, name_en: str, tm_fc: str):
+def register_typhoon(typ_seq: str, name_kr: str, name_en: str, tm_fc: str,
+                      loc: str = "", lat=None, lon=None):
+    """최초 발견 시 1회만 기록 (발생 시각/위치는 이후 절대 바뀌지 않음)."""
     data = _load()
     data["known_typhoons"].setdefault(typ_seq, {
-        "name_kr": name_kr, "name_en": name_en, "first_seen_tm_fc": tm_fc,
+        "name_kr": name_kr, "name_en": name_en,
+        "first_seen_tm_fc": tm_fc, "first_seen_loc": loc,
+        "first_seen_lat": lat, "first_seen_lon": lon,
+    })
+    _save(data)
+
+
+def update_typhoon_latest(typ_seq: str, tm_fc: str, loc: str, lat, lon,
+                           pressure_hpa, max_wind_ms):
+    """매 폴링마다 호출: 해당 태풍의 '가장 최근 확인된 상태'를 갱신한다.
+    이 태풍이 이번 폴링에도 API에 나타났다는 뜻이므로 last_seen_tm_fc로
+    '현재 활동 중'인지 웹페이지에서 판단할 수 있게 한다."""
+    data = _load()
+    if typ_seq not in data["known_typhoons"]:
+        return  # register_typhoon을 먼저 호출해야 함
+    data["known_typhoons"][typ_seq].update({
+        "last_seen_tm_fc": tm_fc, "last_loc": loc,
+        "last_lat": lat, "last_lon": lon,
+        "last_pressure_hpa": pressure_hpa, "last_max_wind_ms": max_wind_ms,
     })
     _save(data)
 
