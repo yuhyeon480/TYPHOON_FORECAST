@@ -42,19 +42,31 @@ def process_snapshot(summaries: list[kma_client.TyphoonSummary], tracks: list[km
         if is_new:
             name = kma_client.fetch_typhoon_name(yy, typ)
             name_kr, name_en = name if name else ("이름 미상", "")
-            storage.register_typhoon(typ_id, name_kr, name_en, point.typ_tm if point else "")
+            loc_text = (point.loc if point else "") or ""
+            storage.register_typhoon(
+                typ_id, name_kr, name_en, point.typ_tm if point else "",
+                loc=loc_text, lat=point.lat if point else None, lon=point.lon if point else None,
+            )
 
             title = f"제{typ}호 태풍 '{name_kr}({name_en})' 발생" if name else f"제{typ}호 태풍 발생"
             if point:
-                loc_text = point.loc or (f"{point.lat}N {point.lon}E" if point.lat is not None else "위치 정보 없음")
+                loc_display = point.loc or (f"{point.lat}N {point.lon}E" if point.lat is not None else "위치 정보 없음")
                 body = (
                     f"중심기압 {point.pressure_hpa}hPa, 최대풍속 {point.max_wind_ms}m/s, "
-                    f"위치 {loc_text} (UTC {point.typ_tm})"
+                    f"위치 {loc_display} (UTC {point.typ_tm})"
                 )
             else:
                 body = "상세 경로 정보는 조금 뒤 갱신됩니다."
             log.info("신규 태풍 감지: %s", title)
             notifier.send_push(title, body, data={"typ_id": typ_id, "type": "NEW_TYPHOON"})
+
+        # 이번 폴링에 API에 나타났다는 것 자체가 '현재 활동 중'이라는 뜻이므로,
+        # 신규/기존 관계없이 매번 최신 상태를 갱신해서 웹페이지가 최신 위치를 보여줄 수 있게 한다.
+        if point:
+            storage.update_typhoon_latest(
+                typ_id, point.typ_tm, point.loc or "", point.lat, point.lon,
+                point.pressure_hpa, point.max_wind_ms,
+            )
 
         # 새 통보문(발표번호 기준)이면 기록만 해둔다 (원하면 여기서 강도변화 알림 로직 추가 가능)
         if point and storage.is_new_bulletin(point.uid):
