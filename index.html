@@ -8,7 +8,12 @@
   body { font-family: -apple-system, sans-serif; max-width: 640px; margin: 40px auto; padding: 0 16px; color: #222; }
   h1 { font-size: 20px; }
   .card { border: 1px solid #ddd; border-radius: 10px; padding: 16px; margin-bottom: 12px; }
-  .card h3 { margin: 0 0 6px; }
+  .card h3 { margin: 0 0 6px; display: flex; align-items: center; gap: 8px; }
+  .badge { font-size: 11px; padding: 2px 8px; border-radius: 999px; font-weight: 600; }
+  .badge.active { background: #fdecea; color: #c0392b; }
+  .badge.past { background: #eee; color: #777; }
+  .row { font-size: 13px; margin: 4px 0; }
+  .row .label { color: #999; display: inline-block; min-width: 78px; }
   .muted { color: #777; font-size: 13px; }
   button { padding: 10px 16px; border-radius: 8px; border: 1px solid #333; background: #111; color: #fff; font-size: 14px; cursor: pointer; }
   button:disabled { opacity: 0.5; cursor: default; }
@@ -25,7 +30,7 @@
   <p id="status"></p>
   <textarea id="subBox" style="display:none" readonly></textarea>
   <p class="muted" id="subHelp" style="display:none">
-    이 내용을 통째로 복사해서 GitHub 저장소 Secrets의 <code>PUSH_SUBSCRIPTION</code> 값으로 등록하면 알림이 켜집니다.
+    이 내용을 통째로 복사해서 GitHub 저장소 Secrets의 <code>PUSH_SUBSCRIPTION_JSON</code> 값으로 등록하면 알림이 켜집니다.
   </p>
 
   <div id="list" style="margin-top:24px"></div>
@@ -41,6 +46,20 @@ function urlBase64ToUint8Array(base64String) {
   return Uint8Array.from([...rawData].map(c => c.charCodeAt(0)));
 }
 
+function parseTmFc(tmFc) {
+  // 'YYYYMMDDHHmm' (UTC) -> Date
+  if (!tmFc || tmFc.length < 12) return null;
+  const y = tmFc.slice(0, 4), mo = tmFc.slice(4, 6), d = tmFc.slice(6, 8);
+  const h = tmFc.slice(8, 10), mi = tmFc.slice(10, 12);
+  return new Date(`${y}-${mo}-${d}T${h}:${mi}:00Z`);
+}
+
+function isActive(t) {
+  const last = parseTmFc(t.last_seen_tm_fc || t.first_seen_tm_fc);
+  if (!last) return false;
+  return (Date.now() - last.getTime()) < 24 * 60 * 60 * 1000; // 최근 24시간 내 확인됐으면 활동중으로 간주
+}
+
 async function loadStatus() {
   try {
     const res = await fetch("typhoon_state.json?_=" + Date.now());
@@ -50,12 +69,31 @@ async function loadStatus() {
     if (entries.length === 0) {
       list.innerHTML = '<p class="empty">현재 기록된 태풍이 없습니다.</p>';
     } else {
-      list.innerHTML = entries.map(([id, t]) => `
+      // 활동중인 태풍을 먼저, 그 안에서는 최근 확인 순
+      entries.sort(([, a], [, b]) => {
+        const ai = isActive(a) ? 1 : 0, bi = isActive(b) ? 1 : 0;
+        if (ai !== bi) return bi - ai;
+        return (b.last_seen_tm_fc || "").localeCompare(a.last_seen_tm_fc || "");
+      });
+      list.innerHTML = entries.map(([id, t]) => {
+        const active = isActive(t);
+        const lastLoc = t.last_loc || (t.last_lat != null ? `${t.last_lat}N ${t.last_lon}E` : "");
+        const firstLoc = t.first_seen_loc || (t.first_seen_lat != null ? `${t.first_seen_lat}N ${t.first_seen_lon}E` : "위치 정보 없음");
+        return `
         <div class="card">
-          <h3>${t.name_kr || "이름 미상"} (${t.name_en || ""})</h3>
-          <p class="muted">번호 ${id} · 최초 감지 UTC ${t.first_seen_tm_fc || "-"}</p>
-        </div>
-      `).join("");
+          <h3>${t.name_kr || "이름 미상"} (${t.name_en || ""})
+            <span class="badge ${active ? "active" : "past"}">${active ? "활동중" : "지난 태풍"}</span>
+          </h3>
+          <p class="row"><span class="label">태풍 번호</span>${id}</p>
+          <p class="row"><span class="label">발생 시각</span>UTC ${t.first_seen_tm_fc || "-"}</p>
+          <p class="row"><span class="label">발생 위치</span>${firstLoc}</p>
+          ${active ? `
+          <p class="row"><span class="label">최근 확인</span>UTC ${t.last_seen_tm_fc || "-"}</p>
+          <p class="row"><span class="label">현재 위치</span>${lastLoc || "-"}</p>
+          <p class="row"><span class="label">중심기압/풍속</span>${t.last_pressure_hpa ?? "-"}hPa / ${t.last_max_wind_ms ?? "-"}m/s</p>
+          ` : ""}
+        </div>`;
+      }).join("");
     }
   } catch (e) {
     document.getElementById("list").innerHTML = '<p class="empty">상태 파일을 아직 불러올 수 없습니다 (첫 실행 전이거나 Pages 배포 중).</p>';
