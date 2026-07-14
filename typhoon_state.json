@@ -1,4 +1,26 @@
 {
-  "known_typhoons": {},
-  "seen_bulletins": {}
+  "known_typhoons": {
+    "2026-11": {
+      "first_seen_lat": 13.3,
+      "first_seen_loc": "괌 서쪽 약 1160 km 부근 해상",
+      "first_seen_lon": 134.1,
+      "first_seen_tm_fc": "202607140000",
+      "last_lat": 13.3,
+      "last_loc": "괌 서쪽 약 1160 km 부근 해상",
+      "last_lon": 134.1,
+      "last_max_wind_ms": 15.0,
+      "last_pressure_hpa": 1004.0,
+      "last_seen_tm_fc": "202607140000",
+      "name_en": "HAISHEN",
+      "name_kr": "하이선"
+    }
+  },
+  "seen_bulletins": {
+    "2026-11-4": {
+      "max_wind_ms": 15.0,
+      "pressure_hpa": 1004.0,
+      "tm_fc": "202607140000",
+      "typ_seq": "2026-11"
+    }
+  }
 }
