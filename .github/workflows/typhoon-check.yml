@@ -27,6 +27,9 @@ jobs:
       - name: 태풍 정보 확인 및 알림 발송
         env:
           KMA_AUTH_KEY: ${{ secrets.KMA_AUTH_KEY }}
+          VAPID_PRIVATE_KEY_PEM: ${{ secrets.VAPID_PRIVATE_KEY_PEM }}
+          PUSH_SUBSCRIPTION_JSON: ${{ secrets.PUSH_SUBSCRIPTION_JSON }}
+          VAPID_CLAIMS_EMAIL: ${{ secrets.VAPID_CLAIMS_EMAIL }}
           FCM_PROJECT_ID: ${{ secrets.FCM_PROJECT_ID }}
           FCM_TOPIC: ${{ secrets.FCM_TOPIC }}
           FCM_SERVICE_ACCOUNT_JSON: ${{ secrets.FCM_SERVICE_ACCOUNT_JSON }}
@@ -38,4 +41,11 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add typhoon_state.json last_run.json
           git diff --cached --quiet || git commit -m "상태 업데이트 $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+          # 체크아웃 이후 원격에 새 커밋이 생겼을 수 있으니, 밀어넣기 전에 먼저 받아와 정리한다.
+          # 이 파일들은 항상 최신 실행 결과가 맞으므로 충돌나면 우리 쪽 내용을 우선한다.
+          for i in 1 2 3; do
+            git pull --rebase -X ours origin main && break
+            echo "재시도 $i 실패, 5초 후 다시 시도"
+            sleep 5
+          done
           git push
