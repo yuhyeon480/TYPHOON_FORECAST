@@ -9,6 +9,12 @@ on:
 permissions:
   contents: write   # 상태 파일(typhoon_state.json)을 저장소에 커밋하기 위해 필요
 
+# 같은 워크플로가 동시에 두 번 이상 돌면 서로 git push 경쟁이 나서 실패할 수 있으므로,
+# 한 번에 하나씩만 실행되도록 강제한다 (겹치면 대기열에 줄서서 순서대로 실행).
+concurrency:
+  group: typhoon-check
+  cancel-in-progress: false
+
 jobs:
   check:
     runs-on: ubuntu-latest
