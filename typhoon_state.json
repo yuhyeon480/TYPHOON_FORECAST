@@ -13,6 +13,20 @@
       "last_seen_tm_fc": "202607140000",
       "name_en": "HAISHEN",
       "name_kr": "하이선"
+    },
+    "2026-12": {
+      "first_seen_lat": 18.0,
+      "first_seen_loc": "필리핀 마닐라 북동쪽 약 570 km 부근 해상",
+      "first_seen_lon": 125.0,
+      "first_seen_tm_fc": "202607231800",
+      "last_lat": 18.0,
+      "last_loc": "필리핀 마닐라 북동쪽 약 570 km 부근 해상",
+      "last_lon": 125.0,
+      "last_max_wind_ms": 19.0,
+      "last_pressure_hpa": 998.0,
+      "last_seen_tm_fc": "202607231800",
+      "name_en": "NOUL",
+      "name_kr": "노을"
     }
   },
   "seen_bulletins": {
@@ -21,6 +35,12 @@
       "pressure_hpa": 1004.0,
       "tm_fc": "202607140000",
       "typ_seq": "2026-11"
+    },
+    "2026-12-1": {
+      "max_wind_ms": 19.0,
+      "pressure_hpa": 998.0,
+      "tm_fc": "202607231800",
+      "typ_seq": "2026-12"
     }
   }
 }
