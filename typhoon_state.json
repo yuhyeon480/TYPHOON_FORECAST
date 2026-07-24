@@ -19,12 +19,12 @@
       "first_seen_loc": "필리핀 마닐라 북동쪽 약 570 km 부근 해상",
       "first_seen_lon": 125.0,
       "first_seen_tm_fc": "202607231800",
-      "last_lat": 19.4,
-      "last_loc": "필리핀 마닐라 북쪽 약 540 km 부근 해상",
-      "last_lon": 120.5,
-      "last_max_wind_ms": 27.0,
-      "last_pressure_hpa": 985.0,
-      "last_seen_tm_fc": "202607241200",
+      "last_lat": 20.1,
+      "last_loc": "필리핀 마닐라 북북서쪽 약 630 km 부근 해상",
+      "last_lon": 119.4,
+      "last_max_wind_ms": 29.0,
+      "last_pressure_hpa": 980.0,
+      "last_seen_tm_fc": "202607241800",
       "name_en": "NOUL",
       "name_kr": "노을"
     }
@@ -58,6 +58,12 @@
       "max_wind_ms": 27.0,
       "pressure_hpa": 985.0,
       "tm_fc": "202607241200",
+      "typ_seq": "2026-12"
+    },
+    "2026-12-5": {
+      "max_wind_ms": 29.0,
+      "pressure_hpa": 980.0,
+      "tm_fc": "202607241800",
       "typ_seq": "2026-12"
     }
   }
