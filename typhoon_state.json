@@ -33,12 +33,12 @@
       "first_seen_loc": "괌 동쪽 약 3490 km 부근 해상",
       "first_seen_lon": 177.0,
       "first_seen_tm_fc": "202607270600",
-      "last_lat": 24.1,
-      "last_loc": "괌 북북동쪽 약 1280 km 부근 해상",
-      "last_lon": 149.6,
-      "last_max_wind_ms": 49.0,
-      "last_pressure_hpa": 935.0,
-      "last_seen_tm_fc": "202608021800",
+      "last_lat": 25.0,
+      "last_loc": "괌 북쪽 약 1300 km 부근 해상",
+      "last_lon": 147.2,
+      "last_max_wind_ms": 47.0,
+      "last_pressure_hpa": 940.0,
+      "last_seen_tm_fc": "202608030600",
       "name_en": "DOLPHIN",
       "name_kr": "돌핀"
     }
@@ -198,6 +198,12 @@
       "max_wind_ms": 49.0,
       "pressure_hpa": 935.0,
       "tm_fc": "202608021800",
+      "typ_seq": "2026-13"
+    },
+    "2026-13-29": {
+      "max_wind_ms": 47.0,
+      "pressure_hpa": 940.0,
+      "tm_fc": "202608030600",
       "typ_seq": "2026-13"
     },
     "2026-13-3": {
