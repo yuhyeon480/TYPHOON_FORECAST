@@ -34,11 +34,11 @@
       "first_seen_lon": 177.0,
       "first_seen_tm_fc": "202607270600",
       "last_lat": 25.2,
-      "last_loc": "일본 오키나와 동쪽 약 1630 km 부근 해상",
-      "last_lon": 144.2,
+      "last_loc": "일본 오키나와 동쪽 약 1270 km 부근 해상",
+      "last_lon": 140.6,
       "last_max_wind_ms": 43.0,
       "last_pressure_hpa": 950.0,
-      "last_seen_tm_fc": "202608031800",
+      "last_seen_tm_fc": "202608041200",
       "name_en": "DOLPHIN",
       "name_kr": "돌핀"
     }
@@ -216,6 +216,12 @@
       "max_wind_ms": 43.0,
       "pressure_hpa": 950.0,
       "tm_fc": "202608031800",
+      "typ_seq": "2026-13"
+    },
+    "2026-13-34": {
+      "max_wind_ms": 43.0,
+      "pressure_hpa": 950.0,
+      "tm_fc": "202608041200",
       "typ_seq": "2026-13"
     },
     "2026-13-5": {
