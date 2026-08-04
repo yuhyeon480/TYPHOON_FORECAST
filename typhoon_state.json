@@ -33,14 +33,28 @@
       "first_seen_loc": "괌 동쪽 약 3490 km 부근 해상",
       "first_seen_lon": 177.0,
       "first_seen_tm_fc": "202607270600",
-      "last_lat": 25.2,
-      "last_loc": "일본 오키나와 동쪽 약 1270 km 부근 해상",
-      "last_lon": 140.6,
+      "last_lat": 25.3,
+      "last_loc": "일본 오키나와 동쪽 약 1140 km 부근 해상",
+      "last_lon": 139.3,
       "last_max_wind_ms": 43.0,
       "last_pressure_hpa": 950.0,
-      "last_seen_tm_fc": "202608041200",
+      "last_seen_tm_fc": "202608041800",
       "name_en": "DOLPHIN",
       "name_kr": "돌핀"
+    },
+    "2026-14": {
+      "first_seen_lat": 16.9,
+      "first_seen_loc": "필리핀 마닐라 북서쪽 약 400 km 부근 해상",
+      "first_seen_lon": 118.1,
+      "first_seen_tm_fc": "202608041800",
+      "last_lat": 16.9,
+      "last_loc": "필리핀 마닐라 북서쪽 약 400 km 부근 해상",
+      "last_lon": 118.1,
+      "last_max_wind_ms": 19.0,
+      "last_pressure_hpa": 998.0,
+      "last_seen_tm_fc": "202608041800",
+      "name_en": "KUJIRA",
+      "name_kr": "구지라"
     }
   },
   "seen_bulletins": {
@@ -224,6 +238,12 @@
       "tm_fc": "202608041200",
       "typ_seq": "2026-13"
     },
+    "2026-13-35": {
+      "max_wind_ms": 43.0,
+      "pressure_hpa": 950.0,
+      "tm_fc": "202608041800",
+      "typ_seq": "2026-13"
+    },
     "2026-13-5": {
       "max_wind_ms": 29.0,
       "pressure_hpa": 980.0,
@@ -247,6 +267,12 @@
       "pressure_hpa": 945.0,
       "tm_fc": "202607290600",
       "typ_seq": "2026-13"
+    },
+    "2026-14-1": {
+      "max_wind_ms": 19.0,
+      "pressure_hpa": 998.0,
+      "tm_fc": "202608041800",
+      "typ_seq": "2026-14"
     }
   }
 }
