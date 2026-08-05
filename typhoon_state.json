@@ -33,9 +33,9 @@
       "first_seen_loc": "괌 동쪽 약 3490 km 부근 해상",
       "first_seen_lon": 177.0,
       "first_seen_tm_fc": "202607270600",
-      "last_lat": 26.1,
-      "last_loc": "일본 오키나와 동쪽 약 730 km 부근 해상",
-      "last_lon": 135.3,
+      "last_lat": 26.3,
+      "last_loc": "일본 오키나와 동쪽 약 710 km 부근 해상",
+      "last_lon": 135.1,
       "last_max_wind_ms": 43.0,
       "last_pressure_hpa": 950.0,
       "last_seen_tm_fc": "202608051800",
@@ -48,11 +48,11 @@
       "first_seen_lon": 118.1,
       "first_seen_tm_fc": "202608041800",
       "last_lat": 17.8,
-      "last_loc": "필리핀 마닐라 북북서쪽 약 390 km 부근 해상",
-      "last_lon": 119.4,
-      "last_max_wind_ms": 19.0,
+      "last_loc": "필리핀 마닐라 북북서쪽 약 370 km 부근 해상",
+      "last_lon": 120.1,
+      "last_max_wind_ms": 18.0,
       "last_pressure_hpa": 998.0,
-      "last_seen_tm_fc": "202608051200",
+      "last_seen_tm_fc": "202608051800",
       "name_en": "KUJIRA",
       "name_kr": "구지라"
     },
@@ -322,6 +322,12 @@
       "max_wind_ms": 19.0,
       "pressure_hpa": 998.0,
       "tm_fc": "202608051200",
+      "typ_seq": "2026-14"
+    },
+    "2026-14-5": {
+      "max_wind_ms": 18.0,
+      "pressure_hpa": 998.0,
+      "tm_fc": "202608051800",
       "typ_seq": "2026-14"
     },
     "2026-15-1": {
