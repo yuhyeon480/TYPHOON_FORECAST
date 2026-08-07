@@ -33,12 +33,12 @@
       "first_seen_loc": "괌 동쪽 약 3490 km 부근 해상",
       "first_seen_lon": 177.0,
       "first_seen_tm_fc": "202607270600",
-      "last_lat": 27.2,
-      "last_loc": "일본 오키나와 북서쪽 약 100 km 부근 해상",
-      "last_lon": 127.2,
+      "last_lat": 26.5,
+      "last_loc": "일본 오키나와 서쪽 약 150 km 부근 해상",
+      "last_lon": 126.5,
       "last_max_wind_ms": 47.0,
       "last_pressure_hpa": 940.0,
-      "last_seen_tm_fc": "202608071200",
+      "last_seen_tm_fc": "202608071800",
       "name_en": "DOLPHIN",
       "name_kr": "돌핀"
     },
@@ -61,12 +61,12 @@
       "first_seen_loc": "일본 도쿄 동남동쪽 약 3110 km 부근 해상",
       "first_seen_lon": 165.8,
       "first_seen_tm_fc": "202608050600",
-      "last_lat": 31.0,
-      "last_loc": "일본 도쿄 동쪽 약 1940 km 부근 해상",
-      "last_lon": 159.9,
+      "last_lat": 32.1,
+      "last_loc": "일본 도쿄 동쪽 약 1740 km 부근 해상",
+      "last_lon": 158.1,
       "last_max_wind_ms": 21.0,
       "last_pressure_hpa": 994.0,
-      "last_seen_tm_fc": "202608071200",
+      "last_seen_tm_fc": "202608071800",
       "name_en": "CHAN-HOM",
       "name_kr": "찬홈"
     }
@@ -294,6 +294,12 @@
       "tm_fc": "202608071200",
       "typ_seq": "2026-13"
     },
+    "2026-13-47": {
+      "max_wind_ms": 47.0,
+      "pressure_hpa": 940.0,
+      "tm_fc": "202608071800",
+      "typ_seq": "2026-13"
+    },
     "2026-13-5": {
       "max_wind_ms": 29.0,
       "pressure_hpa": 980.0,
@@ -358,6 +364,12 @@
       "max_wind_ms": 21.0,
       "pressure_hpa": 994.0,
       "tm_fc": "202608071200",
+      "typ_seq": "2026-15"
+    },
+    "2026-15-11": {
+      "max_wind_ms": 21.0,
+      "pressure_hpa": 994.0,
+      "tm_fc": "202608071800",
       "typ_seq": "2026-15"
     },
     "2026-15-3": {
