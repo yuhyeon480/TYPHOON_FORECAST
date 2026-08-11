@@ -61,12 +61,12 @@
       "first_seen_loc": "일본 도쿄 동남동쪽 약 3110 km 부근 해상",
       "first_seen_lon": 165.8,
       "first_seen_tm_fc": "202608050600",
-      "last_lat": 36.5,
-      "last_loc": "일본 도쿄 동북동쪽 약 220 km 부근 해상",
-      "last_lon": 142.0,
+      "last_lat": 36.0,
+      "last_loc": "일본 도쿄 동북동쪽 약 70 km 부근 육상",
+      "last_lon": 140.4,
       "last_max_wind_ms": 24.0,
-      "last_pressure_hpa": 980.0,
-      "last_seen_tm_fc": "202608110600",
+      "last_pressure_hpa": 985.0,
+      "last_seen_tm_fc": "202608111200",
       "name_en": "CHAN-HOM",
       "name_kr": "찬홈"
     },
@@ -75,12 +75,12 @@
       "first_seen_loc": "괌 북북서쪽 약 890 km 부근 해상",
       "first_seen_lon": 142.7,
       "first_seen_tm_fc": "202608090600",
-      "last_lat": 25.8,
-      "last_loc": "괌 북동쪽 약 1880 km 부근 해상",
-      "last_lon": 157.1,
+      "last_lat": 26.9,
+      "last_loc": "괌 북동쪽 약 2110 km 부근 해상",
+      "last_lon": 159.2,
       "last_max_wind_ms": 24.0,
       "last_pressure_hpa": 990.0,
-      "last_seen_tm_fc": "202608110600",
+      "last_seen_tm_fc": "202608111200",
       "name_en": "PEILOU",
       "name_kr": "페이러우"
     }
@@ -530,6 +530,12 @@
       "tm_fc": "202608110600",
       "typ_seq": "2026-15"
     },
+    "2026-15-26": {
+      "max_wind_ms": 24.0,
+      "pressure_hpa": 985.0,
+      "tm_fc": "202608111200",
+      "typ_seq": "2026-15"
+    },
     "2026-15-3": {
       "max_wind_ms": 18.0,
       "pressure_hpa": 998.0,
@@ -552,6 +558,12 @@
       "max_wind_ms": 19.0,
       "pressure_hpa": 998.0,
       "tm_fc": "202608090600",
+      "typ_seq": "2026-16"
+    },
+    "2026-16-10": {
+      "max_wind_ms": 24.0,
+      "pressure_hpa": 990.0,
+      "tm_fc": "202608111200",
       "typ_seq": "2026-16"
     },
     "2026-16-2": {
