@@ -75,12 +75,12 @@
       "first_seen_loc": "괌 북북서쪽 약 890 km 부근 해상",
       "first_seen_lon": 142.7,
       "first_seen_tm_fc": "202608090600",
-      "last_lat": 29.4,
-      "last_loc": "괌 북동쪽 약 2510 km 부근 해상",
-      "last_lon": 162.1,
-      "last_max_wind_ms": 21.0,
-      "last_pressure_hpa": 994.0,
-      "last_seen_tm_fc": "202608120000",
+      "last_lat": 30.3,
+      "last_loc": "괌 북동쪽 약 2630 km 부근 해상",
+      "last_lon": 162.8,
+      "last_max_wind_ms": 15.0,
+      "last_pressure_hpa": 998.0,
+      "last_seen_tm_fc": "202608120600",
       "name_en": "PEILOU",
       "name_kr": "페이러우"
     },
@@ -89,12 +89,12 @@
       "first_seen_loc": "괌 북북서쪽 약 970 km 부근 해상",
       "first_seen_lon": 141.9,
       "first_seen_tm_fc": "202608120000",
-      "last_lat": 21.8,
-      "last_loc": "괌 북북서쪽 약 970 km 부근 해상",
-      "last_lon": 141.9,
-      "last_max_wind_ms": 18.0,
+      "last_lat": 23.4,
+      "last_loc": "괌 북쪽 약 1100 km 부근 해상",
+      "last_lon": 145.0,
+      "last_max_wind_ms": 20.0,
       "last_pressure_hpa": 996.0,
-      "last_seen_tm_fc": "202608120000",
+      "last_seen_tm_fc": "202608121200",
       "name_en": "NANGKA",
       "name_kr": "낭카"
     }
@@ -598,6 +598,12 @@
       "tm_fc": "202608120000",
       "typ_seq": "2026-16"
     },
+    "2026-16-13": {
+      "max_wind_ms": 15.0,
+      "pressure_hpa": 998.0,
+      "tm_fc": "202608120600",
+      "typ_seq": "2026-16"
+    },
     "2026-16-2": {
       "max_wind_ms": 20.0,
       "pressure_hpa": 996.0,
@@ -638,6 +644,12 @@
       "max_wind_ms": 18.0,
       "pressure_hpa": 996.0,
       "tm_fc": "202608120000",
+      "typ_seq": "2026-17"
+    },
+    "2026-17-3": {
+      "max_wind_ms": 20.0,
+      "pressure_hpa": 996.0,
+      "tm_fc": "202608121200",
       "typ_seq": "2026-17"
     }
   }
