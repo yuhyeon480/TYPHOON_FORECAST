@@ -89,12 +89,12 @@
       "first_seen_loc": "괌 북북서쪽 약 970 km 부근 해상",
       "first_seen_lon": 141.9,
       "first_seen_tm_fc": "202608120000",
-      "last_lat": 28.7,
-      "last_loc": "일본 도쿄 동남동쪽 약 1520 km 부근 해상",
-      "last_lon": 153.6,
+      "last_lat": 28.6,
+      "last_loc": "일본 도쿄 동남동쪽 약 1560 km 부근 해상",
+      "last_lon": 154.1,
       "last_max_wind_ms": 21.0,
       "last_pressure_hpa": 994.0,
-      "last_seen_tm_fc": "202608140000",
+      "last_seen_tm_fc": "202608140600",
       "name_en": "NANGKA",
       "name_kr": "낭카"
     }
@@ -644,6 +644,12 @@
       "max_wind_ms": 18.0,
       "pressure_hpa": 996.0,
       "tm_fc": "202608120000",
+      "typ_seq": "2026-17"
+    },
+    "2026-17-10": {
+      "max_wind_ms": 21.0,
+      "pressure_hpa": 994.0,
+      "tm_fc": "202608140600",
       "typ_seq": "2026-17"
     },
     "2026-17-3": {
