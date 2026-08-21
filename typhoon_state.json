@@ -103,12 +103,12 @@
       "first_seen_loc": "괌 동남동쪽 약 1130 km 부근 해상",
       "first_seen_lon": 153.7,
       "first_seen_tm_fc": "202608190300",
-      "last_lat": 14.9,
-      "last_loc": "괌 동북동쪽 약 460 km 부근 해상",
-      "last_lon": 148.8,
-      "last_max_wind_ms": 29.0,
-      "last_pressure_hpa": 980.0,
-      "last_seen_tm_fc": "202608210600",
+      "last_lat": 16.0,
+      "last_loc": "괌 북동쪽 약 450 km 부근 해상",
+      "last_lon": 148.1,
+      "last_max_wind_ms": 32.0,
+      "last_pressure_hpa": 975.0,
+      "last_seen_tm_fc": "202608211200",
       "name_en": "SAUDEL",
       "name_kr": "사우델"
     }
@@ -712,6 +712,12 @@
       "max_wind_ms": 29.0,
       "pressure_hpa": 980.0,
       "tm_fc": "202608210600",
+      "typ_seq": "2026-18"
+    },
+    "2026-18-11": {
+      "max_wind_ms": 32.0,
+      "pressure_hpa": 975.0,
+      "tm_fc": "202608211200",
       "typ_seq": "2026-18"
     },
     "2026-18-2": {
