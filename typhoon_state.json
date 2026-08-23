@@ -131,12 +131,12 @@
       "first_seen_loc": "타이완 타이베이 동쪽 약 320 km 부근 해상",
       "first_seen_lon": 124.7,
       "first_seen_tm_fc": "202608220300",
-      "last_lat": 25.7,
-      "last_loc": "타이완 타이베이 동북동쪽 약 150 km 부근 해상",
-      "last_lon": 122.9,
+      "last_lat": 25.6,
+      "last_loc": "타이완 타이베이 북동쪽 약 90 km 부근 해상",
+      "last_lon": 122.2,
       "last_max_wind_ms": 18.0,
       "last_pressure_hpa": 998.0,
-      "last_seen_tm_fc": "202608221800",
+      "last_seen_tm_fc": "202608230000",
       "name_en": "GAENARI",
       "name_kr": "개나리"
     }
@@ -884,6 +884,12 @@
       "max_wind_ms": 18.0,
       "pressure_hpa": 998.0,
       "tm_fc": "202608221800",
+      "typ_seq": "2026-20"
+    },
+    "2026-20-5": {
+      "max_wind_ms": 18.0,
+      "pressure_hpa": 998.0,
+      "tm_fc": "202608230000",
       "typ_seq": "2026-20"
     }
   }
