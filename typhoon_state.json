@@ -103,12 +103,12 @@
       "first_seen_loc": "괌 동남동쪽 약 1130 km 부근 해상",
       "first_seen_lon": 153.7,
       "first_seen_tm_fc": "202608190300",
-      "last_lat": 20.4,
-      "last_loc": "괌 북쪽 약 770 km 부근 해상",
-      "last_lon": 143.8,
+      "last_lat": 21.0,
+      "last_loc": "괌 북북서쪽 약 870 km 부근 해상",
+      "last_lon": 142.5,
       "last_max_wind_ms": 45.0,
       "last_pressure_hpa": 945.0,
-      "last_seen_tm_fc": "202608221800",
+      "last_seen_tm_fc": "202608230000",
       "name_en": "SAUDEL",
       "name_kr": "사우델"
     },
@@ -117,12 +117,12 @@
       "first_seen_loc": "중국 잔장 서쪽 약 230 km 부근 해상",
       "first_seen_lon": 108.1,
       "first_seen_tm_fc": "202608220000",
-      "last_lat": 20.9,
-      "last_loc": "중국 잔장 서쪽 약 250 km 부근 해상",
-      "last_lon": 107.9,
+      "last_lat": 20.7,
+      "last_loc": "중국 잔장 서쪽 약 290 km 부근 해상",
+      "last_lon": 107.6,
       "last_max_wind_ms": 18.0,
       "last_pressure_hpa": 994.0,
-      "last_seen_tm_fc": "202608221800",
+      "last_seen_tm_fc": "202608230000",
       "name_en": "NARRA",
       "name_kr": "나라"
     },
@@ -778,6 +778,12 @@
       "tm_fc": "202608221800",
       "typ_seq": "2026-18"
     },
+    "2026-18-17": {
+      "max_wind_ms": 45.0,
+      "pressure_hpa": 945.0,
+      "tm_fc": "202608230000",
+      "typ_seq": "2026-18"
+    },
     "2026-18-2": {
       "max_wind_ms": 18.0,
       "pressure_hpa": 1000.0,
@@ -848,6 +854,12 @@
       "max_wind_ms": 18.0,
       "pressure_hpa": 994.0,
       "tm_fc": "202608221800",
+      "typ_seq": "2026-19"
+    },
+    "2026-19-5": {
+      "max_wind_ms": 18.0,
+      "pressure_hpa": 994.0,
+      "tm_fc": "202608230000",
       "typ_seq": "2026-19"
     },
     "2026-20-1": {
