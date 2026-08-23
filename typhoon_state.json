@@ -117,12 +117,12 @@
       "first_seen_loc": "중국 잔장 서쪽 약 230 km 부근 해상",
       "first_seen_lon": 108.1,
       "first_seen_tm_fc": "202608220000",
-      "last_lat": 20.6,
-      "last_loc": "중국 잔장 서남서쪽 약 240 km 부근 해상",
-      "last_lon": 108.1,
-      "last_max_wind_ms": 19.0,
-      "last_pressure_hpa": 992.0,
-      "last_seen_tm_fc": "202608231200",
+      "last_lat": 20.5,
+      "last_loc": "중국 잔장 서남서쪽 약 250 km 부근 해상",
+      "last_lon": 108.0,
+      "last_max_wind_ms": 24.0,
+      "last_pressure_hpa": 990.0,
+      "last_seen_tm_fc": "202608231800",
       "name_en": "NARRA",
       "name_kr": "나라"
     },
@@ -131,12 +131,12 @@
       "first_seen_loc": "타이완 타이베이 동쪽 약 320 km 부근 해상",
       "first_seen_lon": 124.7,
       "first_seen_tm_fc": "202608220300",
-      "last_lat": 24.2,
-      "last_loc": "타이완 타이베이 서남서쪽 약 190 km 부근 해상",
-      "last_lon": 119.9,
+      "last_lat": 23.8,
+      "last_loc": "타이완 타이베이 서남서쪽 약 280 km 부근 해상",
+      "last_lon": 119.2,
       "last_max_wind_ms": 18.0,
       "last_pressure_hpa": 998.0,
-      "last_seen_tm_fc": "202608231200",
+      "last_seen_tm_fc": "202608231800",
       "name_en": "GAENARI",
       "name_kr": "개나리"
     }
@@ -892,6 +892,12 @@
       "tm_fc": "202608231200",
       "typ_seq": "2026-19"
     },
+    "2026-19-8": {
+      "max_wind_ms": 24.0,
+      "pressure_hpa": 990.0,
+      "tm_fc": "202608231800",
+      "typ_seq": "2026-19"
+    },
     "2026-20-1": {
       "max_wind_ms": 18.0,
       "pressure_hpa": 998.0,
@@ -932,6 +938,12 @@
       "max_wind_ms": 18.0,
       "pressure_hpa": 998.0,
       "tm_fc": "202608231200",
+      "typ_seq": "2026-20"
+    },
+    "2026-20-8": {
+      "max_wind_ms": 18.0,
+      "pressure_hpa": 998.0,
+      "tm_fc": "202608231800",
       "typ_seq": "2026-20"
     }
   }
