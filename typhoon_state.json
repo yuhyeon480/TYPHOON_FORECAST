@@ -103,12 +103,12 @@
       "first_seen_loc": "괌 동남동쪽 약 1130 km 부근 해상",
       "first_seen_lon": 153.7,
       "first_seen_tm_fc": "202608190300",
-      "last_lat": 24.9,
-      "last_loc": "일본 오키나와 동남동쪽 약 600 km 부근 해상",
-      "last_lon": 133.6,
-      "last_max_wind_ms": 49.0,
-      "last_pressure_hpa": 935.0,
-      "last_seen_tm_fc": "202608241200",
+      "last_lat": 25.5,
+      "last_loc": "일본 오키나와 동남동쪽 약 450 km 부근 해상",
+      "last_lon": 132.3,
+      "last_max_wind_ms": 47.0,
+      "last_pressure_hpa": 940.0,
+      "last_seen_tm_fc": "202608241800",
       "name_en": "SAUDEL",
       "name_kr": "사우델"
     },
@@ -117,12 +117,12 @@
       "first_seen_loc": "중국 잔장 서쪽 약 230 km 부근 해상",
       "first_seen_lon": 108.1,
       "first_seen_tm_fc": "202608220000",
-      "last_lat": 19.9,
-      "last_loc": "중국 잔장 서남서쪽 약 340 km 부근 해상",
-      "last_lon": 107.3,
+      "last_lat": 19.6,
+      "last_loc": "중국 잔장 서남서쪽 약 320 km 부근 해상",
+      "last_lon": 107.7,
       "last_max_wind_ms": 24.0,
       "last_pressure_hpa": 990.0,
-      "last_seen_tm_fc": "202608241200",
+      "last_seen_tm_fc": "202608241800",
       "name_en": "NARRA",
       "name_kr": "나라"
     },
@@ -145,12 +145,12 @@
       "first_seen_loc": "괌 서북서쪽 약 840 km 부근 해상",
       "first_seen_lon": 137.2,
       "first_seen_tm_fc": "202608240000",
-      "last_lat": 16.7,
-      "last_loc": "괌 서북서쪽 약 800 km 부근 해상",
+      "last_lat": 18.2,
+      "last_loc": "괌 북서쪽 약 890 km 부근 해상",
       "last_lon": 138.1,
       "last_max_wind_ms": 18.0,
       "last_pressure_hpa": 998.0,
-      "last_seen_tm_fc": "202608241200",
+      "last_seen_tm_fc": "202608241800",
       "name_en": "ATSANI",
       "name_kr": "앗사니"
     }
@@ -840,6 +840,12 @@
       "tm_fc": "202608241200",
       "typ_seq": "2026-18"
     },
+    "2026-18-24": {
+      "max_wind_ms": 47.0,
+      "pressure_hpa": 940.0,
+      "tm_fc": "202608241800",
+      "typ_seq": "2026-18"
+    },
     "2026-18-3": {
       "max_wind_ms": 19.0,
       "pressure_hpa": 998.0,
@@ -898,6 +904,12 @@
       "max_wind_ms": 24.0,
       "pressure_hpa": 990.0,
       "tm_fc": "202608241200",
+      "typ_seq": "2026-19"
+    },
+    "2026-19-12": {
+      "max_wind_ms": 24.0,
+      "pressure_hpa": 990.0,
+      "tm_fc": "202608241800",
       "typ_seq": "2026-19"
     },
     "2026-19-2": {
@@ -1024,6 +1036,12 @@
       "max_wind_ms": 18.0,
       "pressure_hpa": 998.0,
       "tm_fc": "202608241200",
+      "typ_seq": "2026-21"
+    },
+    "2026-21-4": {
+      "max_wind_ms": 18.0,
+      "pressure_hpa": 998.0,
+      "tm_fc": "202608241800",
       "typ_seq": "2026-21"
     }
   }
