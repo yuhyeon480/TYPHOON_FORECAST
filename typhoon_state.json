@@ -103,12 +103,12 @@
       "first_seen_loc": "괌 동남동쪽 약 1130 km 부근 해상",
       "first_seen_lon": 153.7,
       "first_seen_tm_fc": "202608190300",
-      "last_lat": 23.2,
-      "last_loc": "일본 오키나와 동남동쪽 약 1080 km 부근 해상",
-      "last_lon": 138.0,
+      "last_lat": 23.9,
+      "last_loc": "일본 오키나와 동남동쪽 약 900 km 부근 해상",
+      "last_lon": 136.4,
       "last_max_wind_ms": 49.0,
       "last_pressure_hpa": 935.0,
-      "last_seen_tm_fc": "202608231800",
+      "last_seen_tm_fc": "202608240000",
       "name_en": "SAUDEL",
       "name_kr": "사우델"
     },
@@ -117,12 +117,12 @@
       "first_seen_loc": "중국 잔장 서쪽 약 230 km 부근 해상",
       "first_seen_lon": 108.1,
       "first_seen_tm_fc": "202608220000",
-      "last_lat": 20.5,
-      "last_loc": "중국 잔장 서남서쪽 약 250 km 부근 해상",
-      "last_lon": 108.0,
+      "last_lat": 20.4,
+      "last_loc": "중국 잔장 서남서쪽 약 300 km 부근 해상",
+      "last_lon": 107.5,
       "last_max_wind_ms": 24.0,
       "last_pressure_hpa": 990.0,
-      "last_seen_tm_fc": "202608231800",
+      "last_seen_tm_fc": "202608240000",
       "name_en": "NARRA",
       "name_kr": "나라"
     },
@@ -131,14 +131,28 @@
       "first_seen_loc": "타이완 타이베이 동쪽 약 320 km 부근 해상",
       "first_seen_lon": 124.7,
       "first_seen_tm_fc": "202608220300",
-      "last_lat": 23.8,
-      "last_loc": "타이완 타이베이 서남서쪽 약 280 km 부근 해상",
+      "last_lat": 24.6,
+      "last_loc": "중국 푸저우 남쪽 약 160 km 부근 해상",
       "last_lon": 119.2,
       "last_max_wind_ms": 18.0,
       "last_pressure_hpa": 998.0,
-      "last_seen_tm_fc": "202608231800",
+      "last_seen_tm_fc": "202608240000",
       "name_en": "GAENARI",
       "name_kr": "개나리"
+    },
+    "2026-21": {
+      "first_seen_lat": 15.2,
+      "first_seen_loc": "괌 서북서쪽 약 840 km 부근 해상",
+      "first_seen_lon": 137.2,
+      "first_seen_tm_fc": "202608240000",
+      "last_lat": 15.2,
+      "last_loc": "괌 서북서쪽 약 840 km 부근 해상",
+      "last_lon": 137.2,
+      "last_max_wind_ms": 18.0,
+      "last_pressure_hpa": 998.0,
+      "last_seen_tm_fc": "202608240000",
+      "name_en": "ATSANI",
+      "name_kr": "앗사니"
     }
   },
   "seen_bulletins": {
@@ -808,6 +822,12 @@
       "tm_fc": "202608231800",
       "typ_seq": "2026-18"
     },
+    "2026-18-21": {
+      "max_wind_ms": 49.0,
+      "pressure_hpa": 935.0,
+      "tm_fc": "202608240000",
+      "typ_seq": "2026-18"
+    },
     "2026-18-3": {
       "max_wind_ms": 19.0,
       "pressure_hpa": 998.0,
@@ -898,6 +918,12 @@
       "tm_fc": "202608231800",
       "typ_seq": "2026-19"
     },
+    "2026-19-9": {
+      "max_wind_ms": 24.0,
+      "pressure_hpa": 990.0,
+      "tm_fc": "202608240000",
+      "typ_seq": "2026-19"
+    },
     "2026-20-1": {
       "max_wind_ms": 18.0,
       "pressure_hpa": 998.0,
@@ -945,6 +971,18 @@
       "pressure_hpa": 998.0,
       "tm_fc": "202608231800",
       "typ_seq": "2026-20"
+    },
+    "2026-20-9": {
+      "max_wind_ms": 18.0,
+      "pressure_hpa": 998.0,
+      "tm_fc": "202608240000",
+      "typ_seq": "2026-20"
+    },
+    "2026-21-1": {
+      "max_wind_ms": 18.0,
+      "pressure_hpa": 998.0,
+      "tm_fc": "202608240000",
+      "typ_seq": "2026-21"
     }
   }
 }
