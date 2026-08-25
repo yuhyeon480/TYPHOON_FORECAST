@@ -117,12 +117,12 @@
       "first_seen_loc": "중국 잔장 서쪽 약 230 km 부근 해상",
       "first_seen_lon": 108.1,
       "first_seen_tm_fc": "202608220000",
-      "last_lat": 19.5,
-      "last_loc": "중국 잔장 남서쪽 약 310 km 부근 해상",
-      "last_lon": 107.9,
+      "last_lat": 19.3,
+      "last_loc": "중국 잔장 남서쪽 약 300 km 부근 해상",
+      "last_lon": 108.2,
       "last_max_wind_ms": 21.0,
       "last_pressure_hpa": 994.0,
-      "last_seen_tm_fc": "202608250000",
+      "last_seen_tm_fc": "202608250600",
       "name_en": "NARRA",
       "name_kr": "나라"
     },
@@ -928,6 +928,12 @@
       "max_wind_ms": 21.0,
       "pressure_hpa": 994.0,
       "tm_fc": "202608250000",
+      "typ_seq": "2026-19"
+    },
+    "2026-19-14": {
+      "max_wind_ms": 21.0,
+      "pressure_hpa": 994.0,
+      "tm_fc": "202608250600",
       "typ_seq": "2026-19"
     },
     "2026-19-2": {
