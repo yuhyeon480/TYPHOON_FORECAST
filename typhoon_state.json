@@ -104,11 +104,11 @@
       "first_seen_lon": 153.7,
       "first_seen_tm_fc": "202608190300",
       "last_lat": 28.5,
-      "last_loc": "일본 오키나와 북서쪽 약 290 km 부근 해상",
-      "last_lon": 126.0,
+      "last_loc": "중국 푸저우 동북동쪽 약 650 km 부근 해상",
+      "last_lon": 125.3,
       "last_max_wind_ms": 39.0,
       "last_pressure_hpa": 960.0,
-      "last_seen_tm_fc": "202608261200",
+      "last_seen_tm_fc": "202608261800",
       "name_en": "SAUDEL",
       "name_kr": "사우델"
     },
@@ -892,6 +892,12 @@
       "max_wind_ms": 39.0,
       "pressure_hpa": 960.0,
       "tm_fc": "202608261200",
+      "typ_seq": "2026-18"
+    },
+    "2026-18-32": {
+      "max_wind_ms": 39.0,
+      "pressure_hpa": 960.0,
+      "tm_fc": "202608261800",
       "typ_seq": "2026-18"
     },
     "2026-18-4": {
