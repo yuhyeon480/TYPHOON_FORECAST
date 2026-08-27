@@ -103,12 +103,12 @@
       "first_seen_loc": "괌 동남동쪽 약 1130 km 부근 해상",
       "first_seen_lon": 153.7,
       "first_seen_tm_fc": "202608190300",
-      "last_lat": 28.3,
-      "last_loc": "타이완 타이베이 북동쪽 약 450 km 부근 해상",
-      "last_lon": 124.2,
+      "last_lat": 28.1,
+      "last_loc": "타이완 타이베이 북북동쪽 약 360 km 부근 해상",
+      "last_lon": 122.8,
       "last_max_wind_ms": 37.0,
       "last_pressure_hpa": 965.0,
-      "last_seen_tm_fc": "202608270600",
+      "last_seen_tm_fc": "202608271800",
       "name_en": "SAUDEL",
       "name_kr": "사우델"
     },
@@ -159,12 +159,12 @@
       "first_seen_loc": "괌 동북동쪽 약 2600 km 부근 해상",
       "first_seen_lon": 167.9,
       "first_seen_tm_fc": "202608270600",
-      "last_lat": 21.2,
-      "last_loc": "괌 동북동쪽 약 2600 km 부근 해상",
-      "last_lon": 167.9,
-      "last_max_wind_ms": 18.0,
-      "last_pressure_hpa": 1000.0,
-      "last_seen_tm_fc": "202608270600",
+      "last_lat": 22.8,
+      "last_loc": "괌 동북동쪽 약 2670 km 부근 해상",
+      "last_lon": 168.1,
+      "last_max_wind_ms": 19.0,
+      "last_pressure_hpa": 998.0,
+      "last_seen_tm_fc": "202608271800",
       "name_en": "ETAU",
       "name_kr": "아타우"
     }
@@ -926,6 +926,12 @@
       "tm_fc": "202608270600",
       "typ_seq": "2026-18"
     },
+    "2026-18-36": {
+      "max_wind_ms": 37.0,
+      "pressure_hpa": 965.0,
+      "tm_fc": "202608271800",
+      "typ_seq": "2026-18"
+    },
     "2026-18-4": {
       "max_wind_ms": 19.0,
       "pressure_hpa": 998.0,
@@ -1158,6 +1164,12 @@
       "max_wind_ms": 18.0,
       "pressure_hpa": 1000.0,
       "tm_fc": "202608270600",
+      "typ_seq": "2026-22"
+    },
+    "2026-22-3": {
+      "max_wind_ms": 19.0,
+      "pressure_hpa": 998.0,
+      "tm_fc": "202608271800",
       "typ_seq": "2026-22"
     }
   }
