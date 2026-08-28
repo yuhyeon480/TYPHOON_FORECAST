@@ -103,12 +103,12 @@
       "first_seen_loc": "괌 동남동쪽 약 1130 km 부근 해상",
       "first_seen_lon": 153.7,
       "first_seen_tm_fc": "202608190300",
-      "last_lat": 28.0,
-      "last_loc": "중국 푸저우 북동쪽 약 290 km 부근 해상",
-      "last_lon": 121.3,
-      "last_max_wind_ms": 32.0,
-      "last_pressure_hpa": 975.0,
-      "last_seen_tm_fc": "202608280000",
+      "last_lat": 27.5,
+      "last_loc": "중국 푸저우 북서쪽 약 200 km 부근 육상",
+      "last_lon": 118.1,
+      "last_max_wind_ms": 18.0,
+      "last_pressure_hpa": 992.0,
+      "last_seen_tm_fc": "202608281200",
       "name_en": "SAUDEL",
       "name_kr": "사우델"
     },
@@ -159,12 +159,12 @@
       "first_seen_loc": "괌 동북동쪽 약 2600 km 부근 해상",
       "first_seen_lon": 167.9,
       "first_seen_tm_fc": "202608270600",
-      "last_lat": 23.7,
-      "last_loc": "괌 동북동쪽 약 2670 km 부근 해상",
-      "last_lon": 167.8,
-      "last_max_wind_ms": 20.0,
-      "last_pressure_hpa": 996.0,
-      "last_seen_tm_fc": "202608280000",
+      "last_lat": 25.1,
+      "last_loc": "괌 동북동쪽 약 2620 km 부근 해상",
+      "last_lon": 166.6,
+      "last_max_wind_ms": 21.0,
+      "last_pressure_hpa": 994.0,
+      "last_seen_tm_fc": "202608281200",
       "name_en": "ETAU",
       "name_kr": "아타우"
     },
@@ -173,12 +173,12 @@
       "first_seen_loc": "괌 동북동쪽 약 2220 km 부근 해상",
       "first_seen_lon": 164.9,
       "first_seen_tm_fc": "202608280300",
-      "last_lat": 18.2,
-      "last_loc": "괌 동북동쪽 약 2220 km 부근 해상",
-      "last_lon": 164.9,
-      "last_max_wind_ms": 18.0,
-      "last_pressure_hpa": 1002.0,
-      "last_seen_tm_fc": "202608280300",
+      "last_lat": 19.4,
+      "last_loc": "괌 동북동쪽 약 2360 km 부근 해상",
+      "last_lon": 166.0,
+      "last_max_wind_ms": 20.0,
+      "last_pressure_hpa": 996.0,
+      "last_seen_tm_fc": "202608281200",
       "name_en": "BANG-LANG",
       "name_kr": "방랑"
     }
@@ -952,6 +952,12 @@
       "tm_fc": "202608280000",
       "typ_seq": "2026-18"
     },
+    "2026-18-39": {
+      "max_wind_ms": 18.0,
+      "pressure_hpa": 992.0,
+      "tm_fc": "202608281200",
+      "typ_seq": "2026-18"
+    },
     "2026-18-4": {
       "max_wind_ms": 19.0,
       "pressure_hpa": 998.0,
@@ -1198,10 +1204,22 @@
       "tm_fc": "202608280000",
       "typ_seq": "2026-22"
     },
+    "2026-22-6": {
+      "max_wind_ms": 21.0,
+      "pressure_hpa": 994.0,
+      "tm_fc": "202608281200",
+      "typ_seq": "2026-22"
+    },
     "2026-23-1": {
       "max_wind_ms": 18.0,
       "pressure_hpa": 1002.0,
       "tm_fc": "202608280300",
+      "typ_seq": "2026-23"
+    },
+    "2026-23-3": {
+      "max_wind_ms": 20.0,
+      "pressure_hpa": 996.0,
+      "tm_fc": "202608281200",
       "typ_seq": "2026-23"
     }
   }
