@@ -159,12 +159,12 @@
       "first_seen_loc": "괌 동북동쪽 약 2600 km 부근 해상",
       "first_seen_lon": 167.9,
       "first_seen_tm_fc": "202608270600",
-      "last_lat": 26.3,
-      "last_loc": "괌 북동쪽 약 2610 km 부근 해상",
-      "last_lon": 165.8,
+      "last_lat": 29.8,
+      "last_loc": "일본 도쿄 동쪽 약 2480 km 부근 해상",
+      "last_lon": 165.4,
       "last_max_wind_ms": 23.0,
       "last_pressure_hpa": 992.0,
-      "last_seen_tm_fc": "202608290000",
+      "last_seen_tm_fc": "202608291200",
       "name_en": "ETAU",
       "name_kr": "아타우"
     },
@@ -173,12 +173,12 @@
       "first_seen_loc": "괌 동북동쪽 약 2220 km 부근 해상",
       "first_seen_lon": 164.9,
       "first_seen_tm_fc": "202608280300",
-      "last_lat": 20.6,
-      "last_loc": "괌 동북동쪽 약 2480 km 부근 해상",
-      "last_lon": 166.9,
-      "last_max_wind_ms": 24.0,
-      "last_pressure_hpa": 990.0,
-      "last_seen_tm_fc": "202608281800",
+      "last_lat": 25.3,
+      "last_loc": "괌 동북동쪽 약 2800 km 부근 해상",
+      "last_lon": 168.4,
+      "last_max_wind_ms": 29.0,
+      "last_pressure_hpa": 980.0,
+      "last_seen_tm_fc": "202608291200",
       "name_en": "BANG-LANG",
       "name_kr": "방랑"
     }
@@ -1198,6 +1198,12 @@
       "tm_fc": "202608270600",
       "typ_seq": "2026-22"
     },
+    "2026-22-10": {
+      "max_wind_ms": 23.0,
+      "pressure_hpa": 992.0,
+      "tm_fc": "202608291200",
+      "typ_seq": "2026-22"
+    },
     "2026-22-3": {
       "max_wind_ms": 19.0,
       "pressure_hpa": 998.0,
@@ -1238,6 +1244,12 @@
       "max_wind_ms": 24.0,
       "pressure_hpa": 990.0,
       "tm_fc": "202608281800",
+      "typ_seq": "2026-23"
+    },
+    "2026-23-7": {
+      "max_wind_ms": 29.0,
+      "pressure_hpa": 980.0,
+      "tm_fc": "202608291200",
       "typ_seq": "2026-23"
     }
   }
