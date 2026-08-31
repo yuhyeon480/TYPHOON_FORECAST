@@ -173,12 +173,12 @@
       "first_seen_loc": "괌 동북동쪽 약 2220 km 부근 해상",
       "first_seen_lon": 164.9,
       "first_seen_tm_fc": "202608280300",
-      "last_lat": 35.3,
-      "last_loc": "일본 삿포로 동남동쪽 약 2290 km 부근 해상",
-      "last_lon": 166.0,
-      "last_max_wind_ms": 21.0,
-      "last_pressure_hpa": 994.0,
-      "last_seen_tm_fc": "202608301800",
+      "last_lat": 36.7,
+      "last_loc": "일본 삿포로 동쪽 약 2180 km 부근 해상",
+      "last_lon": 165.5,
+      "last_max_wind_ms": 19.0,
+      "last_pressure_hpa": 998.0,
+      "last_seen_tm_fc": "202608310000",
       "name_en": "BANG-LANG",
       "name_kr": "방랑"
     }
@@ -1280,6 +1280,12 @@
       "max_wind_ms": 21.0,
       "pressure_hpa": 994.0,
       "tm_fc": "202608301800",
+      "typ_seq": "2026-23"
+    },
+    "2026-23-13": {
+      "max_wind_ms": 19.0,
+      "pressure_hpa": 998.0,
+      "tm_fc": "202608310000",
       "typ_seq": "2026-23"
     },
     "2026-23-3": {
