@@ -103,12 +103,12 @@
       "first_seen_loc": "괌 동남동쪽 약 1130 km 부근 해상",
       "first_seen_lon": 153.7,
       "first_seen_tm_fc": "202608190300",
-      "last_lat": 19.0,
-      "last_loc": "중국 잔장 남동쪽 약 290 km 부근 해상",
-      "last_lon": 111.9,
-      "last_max_wind_ms": 18.0,
-      "last_pressure_hpa": 996.0,
-      "last_seen_tm_fc": "202608311800",
+      "last_lat": 19.3,
+      "last_loc": "중국 홍콩 남남서쪽 약 340 km 부근 해상",
+      "last_lon": 113.1,
+      "last_max_wind_ms": 21.0,
+      "last_pressure_hpa": 994.0,
+      "last_seen_tm_fc": "202609010000",
       "name_en": "SAUDEL",
       "name_kr": "사우델"
     },
@@ -181,6 +181,20 @@
       "last_seen_tm_fc": "202608310000",
       "name_en": "BANG-LANG",
       "name_kr": "방랑"
+    },
+    "2026-24": {
+      "first_seen_lat": 22.3,
+      "first_seen_loc": "일본 오키나와 남동쪽 약 630 km 부근 해상",
+      "first_seen_lon": 132.0,
+      "first_seen_tm_fc": "202609010000",
+      "last_lat": 22.3,
+      "last_loc": "일본 오키나와 남동쪽 약 630 km 부근 해상",
+      "last_lon": 132.0,
+      "last_max_wind_ms": 20.0,
+      "last_pressure_hpa": 996.0,
+      "last_seen_tm_fc": "202609010000",
+      "name_en": "KROVANH",
+      "name_kr": "크로반"
     }
   },
   "seen_bulletins": {
@@ -976,6 +990,12 @@
       "tm_fc": "202608311800",
       "typ_seq": "2026-18"
     },
+    "2026-18-42": {
+      "max_wind_ms": 21.0,
+      "pressure_hpa": 994.0,
+      "tm_fc": "202609010000",
+      "typ_seq": "2026-18"
+    },
     "2026-18-5": {
       "max_wind_ms": 20.0,
       "pressure_hpa": 996.0,
@@ -1323,6 +1343,12 @@
       "pressure_hpa": 990.0,
       "tm_fc": "202608300000",
       "typ_seq": "2026-23"
+    },
+    "2026-24-1": {
+      "max_wind_ms": 20.0,
+      "pressure_hpa": 996.0,
+      "tm_fc": "202609010000",
+      "typ_seq": "2026-24"
     }
   }
 }
