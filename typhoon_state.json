@@ -104,11 +104,11 @@
       "first_seen_lon": 153.7,
       "first_seen_tm_fc": "202608190300",
       "last_lat": 24.6,
-      "last_loc": "중국 산터우 북북서쪽 약 140 km 부근 육상",
-      "last_lon": 116.2,
-      "last_max_wind_ms": 23.0,
-      "last_pressure_hpa": 992.0,
-      "last_seen_tm_fc": "202609030600",
+      "last_loc": "중국 산터우 북서쪽 약 190 km 부근 육상",
+      "last_lon": 115.3,
+      "last_max_wind_ms": 15.0,
+      "last_pressure_hpa": 996.0,
+      "last_seen_tm_fc": "202609031200",
       "name_en": "SAUDEL",
       "name_kr": "사우델"
     },
@@ -187,12 +187,12 @@
       "first_seen_loc": "일본 오키나와 남동쪽 약 630 km 부근 해상",
       "first_seen_lon": 132.0,
       "first_seen_tm_fc": "202609010000",
-      "last_lat": 27.0,
-      "last_loc": "일본 오키나와 동북동쪽 약 110 km 부근 해상",
-      "last_lon": 129.0,
-      "last_max_wind_ms": 23.0,
-      "last_pressure_hpa": 992.0,
-      "last_seen_tm_fc": "202609030600",
+      "last_lat": 28.0,
+      "last_loc": "일본 오키나와 북동쪽 약 190 km 부근 해상",
+      "last_lon": 129.1,
+      "last_max_wind_ms": 24.0,
+      "last_pressure_hpa": 990.0,
+      "last_seen_tm_fc": "202609031200",
       "name_en": "KROVANH",
       "name_kr": "크로반"
     }
@@ -1044,6 +1044,12 @@
       "tm_fc": "202609030600",
       "typ_seq": "2026-18"
     },
+    "2026-18-52": {
+      "max_wind_ms": 15.0,
+      "pressure_hpa": 996.0,
+      "tm_fc": "202609031200",
+      "typ_seq": "2026-18"
+    },
     "2026-18-6": {
       "max_wind_ms": 21.0,
       "pressure_hpa": 994.0,
@@ -1396,6 +1402,12 @@
       "max_wind_ms": 23.0,
       "pressure_hpa": 992.0,
       "tm_fc": "202609030600",
+      "typ_seq": "2026-24"
+    },
+    "2026-24-11": {
+      "max_wind_ms": 24.0,
+      "pressure_hpa": 990.0,
+      "tm_fc": "202609031200",
       "typ_seq": "2026-24"
     },
     "2026-24-3": {
