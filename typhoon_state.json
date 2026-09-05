@@ -187,12 +187,12 @@
       "first_seen_loc": "일본 오키나와 남동쪽 약 630 km 부근 해상",
       "first_seen_lon": 132.0,
       "first_seen_tm_fc": "202609010000",
-      "last_lat": 27.7,
-      "last_loc": "일본 오키나와 북서쪽 약 180 km 부근 해상",
-      "last_lon": 126.7,
-      "last_max_wind_ms": 24.0,
-      "last_pressure_hpa": 990.0,
-      "last_seen_tm_fc": "202609050000",
+      "last_lat": 25.5,
+      "last_loc": "일본 오키나와 남쪽 약 120 km 부근 해상",
+      "last_lon": 128.2,
+      "last_max_wind_ms": 21.0,
+      "last_pressure_hpa": 992.0,
+      "last_seen_tm_fc": "202609051200",
       "name_en": "KROVANH",
       "name_kr": "크로반"
     }
@@ -1444,6 +1444,12 @@
       "max_wind_ms": 24.0,
       "pressure_hpa": 990.0,
       "tm_fc": "202609050000",
+      "typ_seq": "2026-24"
+    },
+    "2026-24-19": {
+      "max_wind_ms": 21.0,
+      "pressure_hpa": 992.0,
+      "tm_fc": "202609051200",
       "typ_seq": "2026-24"
     },
     "2026-24-3": {
