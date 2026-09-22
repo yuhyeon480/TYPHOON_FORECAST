@@ -201,12 +201,12 @@
       "first_seen_loc": "괌 북동쪽 약 590 km 부근 해상",
       "first_seen_lon": 149.3,
       "first_seen_tm_fc": "202609161200",
-      "last_lat": 38.3,
-      "last_loc": "일본 도쿄 동북동쪽 약 750 km 부근 해상",
-      "last_lon": 147.5,
+      "last_lat": 39.4,
+      "last_loc": "일본 삿포로 동남동쪽 약 870 km 부근 해상",
+      "last_lon": 150.5,
       "last_max_wind_ms": 32.0,
       "last_pressure_hpa": 975.0,
-      "last_seen_tm_fc": "202609220000",
+      "last_seen_tm_fc": "202609220600",
       "name_en": "DUJUAN",
       "name_kr": "두쥐안"
     }
@@ -1602,6 +1602,12 @@
       "max_wind_ms": 32.0,
       "pressure_hpa": 975.0,
       "tm_fc": "202609220000",
+      "typ_seq": "2026-25"
+    },
+    "2026-25-24": {
+      "max_wind_ms": 32.0,
+      "pressure_hpa": 975.0,
+      "tm_fc": "202609220600",
       "typ_seq": "2026-25"
     },
     "2026-25-3": {
