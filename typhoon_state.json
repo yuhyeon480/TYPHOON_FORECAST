@@ -209,6 +209,20 @@
       "last_seen_tm_fc": "202609221200",
       "name_en": "DUJUAN",
       "name_kr": "두쥐안"
+    },
+    "2026-26": {
+      "first_seen_lat": 17.2,
+      "first_seen_loc": "괌 서북서쪽 약 920 km 부근 해상",
+      "first_seen_lon": 137.1,
+      "first_seen_tm_fc": "202609231200",
+      "last_lat": 17.2,
+      "last_loc": "괌 서북서쪽 약 920 km 부근 해상",
+      "last_lon": 137.1,
+      "last_max_wind_ms": 18.0,
+      "last_pressure_hpa": 1002.0,
+      "last_seen_tm_fc": "202609231200",
+      "name_en": "SURIGAE",
+      "name_kr": "수리개"
     }
   },
   "seen_bulletins": {
@@ -1657,6 +1671,12 @@
       "pressure_hpa": 975.0,
       "tm_fc": "202609181200",
       "typ_seq": "2026-25"
+    },
+    "2026-26-1": {
+      "max_wind_ms": 18.0,
+      "pressure_hpa": 1002.0,
+      "tm_fc": "202609231200",
+      "typ_seq": "2026-26"
     }
   }
 }
