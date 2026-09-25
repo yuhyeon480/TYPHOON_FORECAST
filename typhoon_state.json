@@ -215,12 +215,12 @@
       "first_seen_loc": "괌 서북서쪽 약 920 km 부근 해상",
       "first_seen_lon": 137.1,
       "first_seen_tm_fc": "202609231200",
-      "last_lat": 19.5,
-      "last_loc": "일본 오키나와 남남동쪽 약 860 km 부근 해상",
-      "last_lon": 131.4,
+      "last_lat": 19.9,
+      "last_loc": "일본 오키나와 남남동쪽 약 780 km 부근 해상",
+      "last_lon": 130.4,
       "last_max_wind_ms": 20.0,
       "last_pressure_hpa": 996.0,
-      "last_seen_tm_fc": "202609241800",
+      "last_seen_tm_fc": "202609250000",
       "name_en": "SURIGAE",
       "name_kr": "수리개"
     }
@@ -1700,6 +1700,12 @@
       "max_wind_ms": 20.0,
       "pressure_hpa": 996.0,
       "tm_fc": "202609241800",
+      "typ_seq": "2026-26"
+    },
+    "2026-26-7": {
+      "max_wind_ms": 20.0,
+      "pressure_hpa": 996.0,
+      "tm_fc": "202609250000",
       "typ_seq": "2026-26"
     }
   }
