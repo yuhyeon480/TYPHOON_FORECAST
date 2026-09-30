@@ -223,6 +223,20 @@
       "last_seen_tm_fc": "202609301800",
       "name_en": "SURIGAE",
       "name_kr": "수리개"
+    },
+    "2026-27": {
+      "first_seen_lat": 16.3,
+      "first_seen_loc": "괌 동북동쪽 약 600 km 부근 해상",
+      "first_seen_lon": 149.5,
+      "first_seen_tm_fc": "202609301800",
+      "last_lat": 16.3,
+      "last_loc": "괌 동북동쪽 약 600 km 부근 해상",
+      "last_lon": 149.5,
+      "last_max_wind_ms": 19.0,
+      "last_pressure_hpa": 998.0,
+      "last_seen_tm_fc": "202609301800",
+      "name_en": "CHOI-WAN",
+      "name_kr": "초이완"
     }
   },
   "seen_bulletins": {
@@ -1815,6 +1829,12 @@
       "pressure_hpa": 990.0,
       "tm_fc": "202609251200",
       "typ_seq": "2026-26"
+    },
+    "2026-27-1": {
+      "max_wind_ms": 19.0,
+      "pressure_hpa": 998.0,
+      "tm_fc": "202609301800",
+      "typ_seq": "2026-27"
     }
   }
 }
