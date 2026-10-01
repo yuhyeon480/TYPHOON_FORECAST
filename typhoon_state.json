@@ -215,12 +215,12 @@
       "first_seen_loc": "괌 서북서쪽 약 920 km 부근 해상",
       "first_seen_lon": 137.1,
       "first_seen_tm_fc": "202609231200",
-      "last_lat": 32.2,
-      "last_loc": "일본 도쿄 남쪽 약 390 km 부근 해상",
-      "last_lon": 139.6,
-      "last_max_wind_ms": 19.0,
-      "last_pressure_hpa": 998.0,
-      "last_seen_tm_fc": "202609301800",
+      "last_lat": 33.2,
+      "last_loc": "일본 도쿄 남남동쪽 약 300 km 부근 해상",
+      "last_lon": 141.0,
+      "last_max_wind_ms": 20.0,
+      "last_pressure_hpa": 996.0,
+      "last_seen_tm_fc": "202610010000",
       "name_en": "SURIGAE",
       "name_kr": "수리개"
     },
@@ -229,12 +229,12 @@
       "first_seen_loc": "괌 동북동쪽 약 600 km 부근 해상",
       "first_seen_lon": 149.5,
       "first_seen_tm_fc": "202609301800",
-      "last_lat": 16.3,
-      "last_loc": "괌 동북동쪽 약 600 km 부근 해상",
-      "last_lon": 149.5,
+      "last_lat": 16.5,
+      "last_loc": "괌 북동쪽 약 490 km 부근 해상",
+      "last_lon": 148.1,
       "last_max_wind_ms": 19.0,
       "last_pressure_hpa": 998.0,
-      "last_seen_tm_fc": "202609301800",
+      "last_seen_tm_fc": "202610010000",
       "name_en": "CHOI-WAN",
       "name_kr": "초이완"
     }
@@ -1800,6 +1800,12 @@
       "tm_fc": "202609301800",
       "typ_seq": "2026-26"
     },
+    "2026-26-31": {
+      "max_wind_ms": 20.0,
+      "pressure_hpa": 996.0,
+      "tm_fc": "202610010000",
+      "typ_seq": "2026-26"
+    },
     "2026-26-5": {
       "max_wind_ms": 19.0,
       "pressure_hpa": 998.0,
@@ -1834,6 +1840,12 @@
       "max_wind_ms": 19.0,
       "pressure_hpa": 998.0,
       "tm_fc": "202609301800",
+      "typ_seq": "2026-27"
+    },
+    "2026-27-2": {
+      "max_wind_ms": 19.0,
+      "pressure_hpa": 998.0,
+      "tm_fc": "202610010000",
       "typ_seq": "2026-27"
     }
   }
