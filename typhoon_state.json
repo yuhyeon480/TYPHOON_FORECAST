@@ -229,12 +229,12 @@
       "first_seen_loc": "괌 동북동쪽 약 600 km 부근 해상",
       "first_seen_lon": 149.5,
       "first_seen_tm_fc": "202609301800",
-      "last_lat": 20.8,
-      "last_loc": "괌 북북동쪽 약 840 km 부근 해상",
-      "last_lon": 146.7,
-      "last_max_wind_ms": 43.0,
-      "last_pressure_hpa": 950.0,
-      "last_seen_tm_fc": "202610031800",
+      "last_lat": 24.3,
+      "last_loc": "괌 북쪽 약 1220 km 부근 해상",
+      "last_lon": 147.1,
+      "last_max_wind_ms": 53.0,
+      "last_pressure_hpa": 920.0,
+      "last_seen_tm_fc": "202610041800",
       "name_en": "CHOI-WAN",
       "name_kr": "초이완"
     }
@@ -1864,6 +1864,12 @@
       "max_wind_ms": 43.0,
       "pressure_hpa": 950.0,
       "tm_fc": "202610031800",
+      "typ_seq": "2026-27"
+    },
+    "2026-27-17": {
+      "max_wind_ms": 53.0,
+      "pressure_hpa": 920.0,
+      "tm_fc": "202610041800",
       "typ_seq": "2026-27"
     },
     "2026-27-2": {
