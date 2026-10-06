@@ -229,12 +229,12 @@
       "first_seen_loc": "괌 동북동쪽 약 600 km 부근 해상",
       "first_seen_lon": 149.5,
       "first_seen_tm_fc": "202609301800",
-      "last_lat": 26.2,
-      "last_loc": "일본 도쿄 남남동쪽 약 1240 km 부근 해상",
-      "last_lon": 146.4,
-      "last_max_wind_ms": 49.0,
-      "last_pressure_hpa": 935.0,
-      "last_seen_tm_fc": "202610050600",
+      "last_lat": 29.9,
+      "last_loc": "일본 도쿄 남동쪽 약 860 km 부근 해상",
+      "last_lon": 145.7,
+      "last_max_wind_ms": 43.0,
+      "last_pressure_hpa": 950.0,
+      "last_seen_tm_fc": "202610060000",
       "name_en": "CHOI-WAN",
       "name_kr": "초이완"
     },
@@ -243,12 +243,12 @@
       "first_seen_loc": "괌 동북동쪽 약 3840 km 부근 해상",
       "first_seen_lon": 179.4,
       "first_seen_tm_fc": "202610050000",
-      "last_lat": 25.3,
-      "last_loc": "괌 동북동쪽 약 3710 km 부근 해상",
-      "last_lon": 178.0,
+      "last_lat": 25.7,
+      "last_loc": "괌 동북동쪽 약 3250 km 부근 해상",
+      "last_lon": 173.1,
       "last_max_wind_ms": 43.0,
       "last_pressure_hpa": 950.0,
-      "last_seen_tm_fc": "202610050600",
+      "last_seen_tm_fc": "202610060000",
       "name_en": "NOLO",
       "name_kr": "놀로"
     },
@@ -257,12 +257,12 @@
       "first_seen_loc": "괌 동쪽 약 2560 km 부근 해상",
       "first_seen_lon": 168.1,
       "first_seen_tm_fc": "202610050000",
-      "last_lat": 11.2,
-      "last_loc": "괌 동쪽 약 2550 km 부근 해상",
-      "last_lon": 167.9,
-      "last_max_wind_ms": 19.0,
-      "last_pressure_hpa": 998.0,
-      "last_seen_tm_fc": "202610050600",
+      "last_lat": 13.2,
+      "last_loc": "괌 동쪽 약 2350 km 부근 해상",
+      "last_lon": 166.5,
+      "last_max_wind_ms": 21.0,
+      "last_pressure_hpa": 994.0,
+      "last_seen_tm_fc": "202610060000",
       "name_en": "KOGUMA",
       "name_kr": "고구마"
     }
@@ -1918,6 +1918,12 @@
       "tm_fc": "202610010000",
       "typ_seq": "2026-27"
     },
+    "2026-27-22": {
+      "max_wind_ms": 43.0,
+      "pressure_hpa": 950.0,
+      "tm_fc": "202610060000",
+      "typ_seq": "2026-27"
+    },
     "2026-27-3": {
       "max_wind_ms": 21.0,
       "pressure_hpa": 994.0,
@@ -1960,6 +1966,12 @@
       "tm_fc": "202610050600",
       "typ_seq": "2026-28"
     },
+    "2026-28-5": {
+      "max_wind_ms": 43.0,
+      "pressure_hpa": 950.0,
+      "tm_fc": "202610060000",
+      "typ_seq": "2026-28"
+    },
     "2026-29-1": {
       "max_wind_ms": 18.0,
       "pressure_hpa": 1000.0,
@@ -1970,6 +1982,12 @@
       "max_wind_ms": 19.0,
       "pressure_hpa": 998.0,
       "tm_fc": "202610050600",
+      "typ_seq": "2026-29"
+    },
+    "2026-29-5": {
+      "max_wind_ms": 21.0,
+      "pressure_hpa": 994.0,
+      "tm_fc": "202610060000",
       "typ_seq": "2026-29"
     }
   }
