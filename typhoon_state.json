@@ -229,12 +229,12 @@
       "first_seen_loc": "괌 동북동쪽 약 600 km 부근 해상",
       "first_seen_lon": 149.5,
       "first_seen_tm_fc": "202609301800",
-      "last_lat": 33.5,
-      "last_loc": "일본 도쿄 동남동쪽 약 750 km 부근 해상",
-      "last_lon": 147.5,
-      "last_max_wind_ms": 39.0,
-      "last_pressure_hpa": 960.0,
-      "last_seen_tm_fc": "202610061200",
+      "last_lat": 36.3,
+      "last_loc": "일본 도쿄 동쪽 약 900 km 부근 해상",
+      "last_lon": 149.7,
+      "last_max_wind_ms": 37.0,
+      "last_pressure_hpa": 965.0,
+      "last_seen_tm_fc": "202610061800",
       "name_en": "CHOI-WAN",
       "name_kr": "초이완"
     },
@@ -243,12 +243,12 @@
       "first_seen_loc": "괌 동북동쪽 약 3840 km 부근 해상",
       "first_seen_lon": 179.4,
       "first_seen_tm_fc": "202610050000",
-      "last_lat": 25.3,
-      "last_loc": "괌 동북동쪽 약 2860 km 부근 해상",
-      "last_lon": 169.1,
-      "last_max_wind_ms": 40.0,
-      "last_pressure_hpa": 955.0,
-      "last_seen_tm_fc": "202610061200",
+      "last_lat": 25.2,
+      "last_loc": "괌 동북동쪽 약 2620 km 부근 해상",
+      "last_lon": 166.5,
+      "last_max_wind_ms": 39.0,
+      "last_pressure_hpa": 960.0,
+      "last_seen_tm_fc": "202610061800",
       "name_en": "NOLO",
       "name_kr": "놀로"
     },
@@ -1930,6 +1930,12 @@
       "tm_fc": "202610061200",
       "typ_seq": "2026-27"
     },
+    "2026-27-25": {
+      "max_wind_ms": 37.0,
+      "pressure_hpa": 965.0,
+      "tm_fc": "202610061800",
+      "typ_seq": "2026-27"
+    },
     "2026-27-3": {
       "max_wind_ms": 21.0,
       "pressure_hpa": 994.0,
@@ -1982,6 +1988,12 @@
       "max_wind_ms": 40.0,
       "pressure_hpa": 955.0,
       "tm_fc": "202610061200",
+      "typ_seq": "2026-28"
+    },
+    "2026-28-8": {
+      "max_wind_ms": 39.0,
+      "pressure_hpa": 960.0,
+      "tm_fc": "202610061800",
       "typ_seq": "2026-28"
     },
     "2026-29-1": {
