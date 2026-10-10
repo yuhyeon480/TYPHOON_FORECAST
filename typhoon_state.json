@@ -243,12 +243,12 @@
       "first_seen_loc": "괌 동북동쪽 약 3840 km 부근 해상",
       "first_seen_lon": 179.4,
       "first_seen_tm_fc": "202610050000",
-      "last_lat": 31.2,
-      "last_loc": "일본 도쿄 남동쪽 약 750 km 부근 해상",
-      "last_lon": 145.8,
-      "last_max_wind_ms": 21.0,
-      "last_pressure_hpa": 994.0,
-      "last_seen_tm_fc": "202610101200",
+      "last_lat": 31.6,
+      "last_loc": "일본 도쿄 남동쪽 약 710 km 부근 해상",
+      "last_lon": 145.6,
+      "last_max_wind_ms": 20.0,
+      "last_pressure_hpa": 996.0,
+      "last_seen_tm_fc": "202610101800",
       "name_en": "NOLO",
       "name_kr": "놀로"
     },
@@ -257,12 +257,12 @@
       "first_seen_loc": "괌 동쪽 약 2560 km 부근 해상",
       "first_seen_lon": 168.1,
       "first_seen_tm_fc": "202610050000",
-      "last_lat": 22.9,
-      "last_loc": "괌 북북동쪽 약 1160 km 부근 해상",
-      "last_lon": 149.6,
+      "last_lat": 23.8,
+      "last_loc": "괌 북북동쪽 약 1220 km 부근 해상",
+      "last_lon": 148.9,
       "last_max_wind_ms": 47.0,
       "last_pressure_hpa": 940.0,
-      "last_seen_tm_fc": "202610101200",
+      "last_seen_tm_fc": "202610101800",
       "name_en": "KOGUMA",
       "name_kr": "고구마"
     }
@@ -2056,6 +2056,12 @@
       "tm_fc": "202610101200",
       "typ_seq": "2026-28"
     },
+    "2026-28-24": {
+      "max_wind_ms": 20.0,
+      "pressure_hpa": 996.0,
+      "tm_fc": "202610101800",
+      "typ_seq": "2026-28"
+    },
     "2026-28-5": {
       "max_wind_ms": 43.0,
       "pressure_hpa": 950.0,
@@ -2156,6 +2162,12 @@
       "max_wind_ms": 47.0,
       "pressure_hpa": 940.0,
       "tm_fc": "202610101200",
+      "typ_seq": "2026-29"
+    },
+    "2026-29-24": {
+      "max_wind_ms": 47.0,
+      "pressure_hpa": 940.0,
+      "tm_fc": "202610101800",
       "typ_seq": "2026-29"
     },
     "2026-29-5": {
