@@ -257,12 +257,12 @@
       "first_seen_loc": "괌 동쪽 약 2560 km 부근 해상",
       "first_seen_lon": 168.1,
       "first_seen_tm_fc": "202610050000",
-      "last_lat": 28.3,
-      "last_loc": "일본 도쿄 남동쪽 약 1090 km 부근 해상",
-      "last_lon": 147.3,
-      "last_max_wind_ms": 45.0,
-      "last_pressure_hpa": 945.0,
-      "last_seen_tm_fc": "202610120000",
+      "last_lat": 29.7,
+      "last_loc": "일본 도쿄 남동쪽 약 990 km 부근 해상",
+      "last_lon": 147.6,
+      "last_max_wind_ms": 43.0,
+      "last_pressure_hpa": 950.0,
+      "last_seen_tm_fc": "202610120600",
       "name_en": "KOGUMA",
       "name_kr": "고구마"
     }
@@ -2198,6 +2198,12 @@
       "max_wind_ms": 45.0,
       "pressure_hpa": 945.0,
       "tm_fc": "202610120000",
+      "typ_seq": "2026-29"
+    },
+    "2026-29-30": {
+      "max_wind_ms": 43.0,
+      "pressure_hpa": 950.0,
+      "tm_fc": "202610120600",
       "typ_seq": "2026-29"
     },
     "2026-29-5": {
