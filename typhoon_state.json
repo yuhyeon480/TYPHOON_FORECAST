@@ -271,12 +271,12 @@
       "first_seen_loc": "괌 동쪽 약 1500 km 부근 해상",
       "first_seen_lon": 158.3,
       "first_seen_tm_fc": "202610150600",
-      "last_lat": 14.0,
-      "last_loc": "괌 서쪽 약 600 km 부근 해상",
-      "last_lon": 139.3,
-      "last_max_wind_ms": 51.0,
-      "last_pressure_hpa": 925.0,
-      "last_seen_tm_fc": "202610190000",
+      "last_lat": 14.3,
+      "last_loc": "괌 서쪽 약 690 km 부근 해상",
+      "last_lon": 138.5,
+      "last_max_wind_ms": 53.0,
+      "last_pressure_hpa": 920.0,
+      "last_seen_tm_fc": "202610190600",
       "name_en": "CHAMPI",
       "name_kr": "참피"
     }
@@ -2320,6 +2320,12 @@
       "max_wind_ms": 51.0,
       "pressure_hpa": 925.0,
       "tm_fc": "202610190000",
+      "typ_seq": "2026-30"
+    },
+    "2026-30-17": {
+      "max_wind_ms": 53.0,
+      "pressure_hpa": 920.0,
+      "tm_fc": "202610190600",
       "typ_seq": "2026-30"
     },
     "2026-30-2": {
