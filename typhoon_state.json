@@ -271,12 +271,12 @@
       "first_seen_loc": "괌 동쪽 약 1500 km 부근 해상",
       "first_seen_lon": 158.3,
       "first_seen_tm_fc": "202610150600",
-      "last_lat": 30.1,
-      "last_loc": "서귀포 남남서쪽 약 370 km 부근 해상",
-      "last_lon": 125.4,
-      "last_max_wind_ms": 23.0,
-      "last_pressure_hpa": 992.0,
-      "last_seen_tm_fc": "202610250600",
+      "last_lat": 30.9,
+      "last_loc": "서귀포 남쪽 약 260 km 부근 해상",
+      "last_lon": 126.2,
+      "last_max_wind_ms": 22.0,
+      "last_pressure_hpa": 998.0,
+      "last_seen_tm_fc": "202610251200",
       "name_en": "CHAMPI",
       "name_kr": "참피"
     },
@@ -285,12 +285,12 @@
       "first_seen_loc": "괌 동쪽 약 2350 km 부근 해상",
       "first_seen_lon": 166.2,
       "first_seen_tm_fc": "202610231800",
-      "last_lat": 12.1,
-      "last_loc": "괌 동쪽 약 2240 km 부근 해상",
-      "last_lon": 165.4,
+      "last_lat": 12.9,
+      "last_loc": "괌 동쪽 약 2170 km 부근 해상",
+      "last_lon": 164.8,
       "last_max_wind_ms": 27.0,
       "last_pressure_hpa": 985.0,
-      "last_seen_tm_fc": "202610250600",
+      "last_seen_tm_fc": "202610251200",
       "name_en": "IN-FA",
       "name_kr": "인파"
     }
@@ -2498,6 +2498,12 @@
       "tm_fc": "202610250600",
       "typ_seq": "2026-30"
     },
+    "2026-30-42": {
+      "max_wind_ms": 22.0,
+      "pressure_hpa": 998.0,
+      "tm_fc": "202610251200",
+      "typ_seq": "2026-30"
+    },
     "2026-30-5": {
       "max_wind_ms": 27.0,
       "pressure_hpa": 985.0,
@@ -2568,6 +2574,12 @@
       "max_wind_ms": 27.0,
       "pressure_hpa": 985.0,
       "tm_fc": "202610250600",
+      "typ_seq": "2026-31"
+    },
+    "2026-31-8": {
+      "max_wind_ms": 27.0,
+      "pressure_hpa": 985.0,
+      "tm_fc": "202610251200",
       "typ_seq": "2026-31"
     }
   }
