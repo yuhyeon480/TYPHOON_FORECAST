@@ -285,12 +285,12 @@
       "first_seen_loc": "괌 동쪽 약 2350 km 부근 해상",
       "first_seen_lon": 166.2,
       "first_seen_tm_fc": "202610231800",
-      "last_lat": 33.8,
-      "last_loc": "일본 도쿄 동남동쪽 약 770 km 부근 해상",
-      "last_lon": 147.8,
+      "last_lat": 37.8,
+      "last_loc": "일본 도쿄 동북동쪽 약 1110 km 부근 해상",
+      "last_lon": 151.9,
       "last_max_wind_ms": 29.0,
       "last_pressure_hpa": 980.0,
-      "last_seen_tm_fc": "202611051800",
+      "last_seen_tm_fc": "202611060000",
       "name_en": "IN-FA",
       "name_kr": "인파"
     }
@@ -2790,6 +2790,12 @@
       "max_wind_ms": 29.0,
       "pressure_hpa": 980.0,
       "tm_fc": "202611051800",
+      "typ_seq": "2026-31"
+    },
+    "2026-31-54": {
+      "max_wind_ms": 29.0,
+      "pressure_hpa": 980.0,
+      "tm_fc": "202611060000",
       "typ_seq": "2026-31"
     },
     "2026-31-6": {
