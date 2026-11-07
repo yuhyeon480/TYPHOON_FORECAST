@@ -293,6 +293,20 @@
       "last_seen_tm_fc": "202611060000",
       "name_en": "IN-FA",
       "name_kr": "인파"
+    },
+    "2026-32": {
+      "first_seen_lat": 19.7,
+      "first_seen_loc": "괌 북북서쪽 약 710 km 부근 해상",
+      "first_seen_lon": 143.0,
+      "first_seen_tm_fc": "202611070600",
+      "last_lat": 19.7,
+      "last_loc": "괌 북북서쪽 약 710 km 부근 해상",
+      "last_lon": 143.0,
+      "last_max_wind_ms": 18.0,
+      "last_pressure_hpa": 1000.0,
+      "last_seen_tm_fc": "202611070600",
+      "name_en": "CEMPAKA",
+      "name_kr": "츰파카"
     }
   },
   "seen_bulletins": {
@@ -2821,6 +2835,12 @@
       "pressure_hpa": 980.0,
       "tm_fc": "202610251800",
       "typ_seq": "2026-31"
+    },
+    "2026-32-2": {
+      "max_wind_ms": 18.0,
+      "pressure_hpa": 1000.0,
+      "tm_fc": "202611070600",
+      "typ_seq": "2026-32"
     }
   }
 }
