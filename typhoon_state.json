@@ -299,12 +299,12 @@
       "first_seen_loc": "괌 북북서쪽 약 710 km 부근 해상",
       "first_seen_lon": 143.0,
       "first_seen_tm_fc": "202611070600",
-      "last_lat": 25.0,
-      "last_loc": "일본 도쿄 남쪽 약 1200 km 부근 해상",
-      "last_lon": 138.0,
-      "last_max_wind_ms": 40.0,
-      "last_pressure_hpa": 955.0,
-      "last_seen_tm_fc": "202611100000",
+      "last_lat": 25.4,
+      "last_loc": "일본 도쿄 남쪽 약 1140 km 부근 해상",
+      "last_lon": 139.8,
+      "last_max_wind_ms": 39.0,
+      "last_pressure_hpa": 960.0,
+      "last_seen_tm_fc": "202611100600",
       "name_en": "CEMPAKA",
       "name_kr": "츰파카"
     }
@@ -2852,6 +2852,12 @@
       "max_wind_ms": 40.0,
       "pressure_hpa": 955.0,
       "tm_fc": "202611100000",
+      "typ_seq": "2026-32"
+    },
+    "2026-32-14": {
+      "max_wind_ms": 39.0,
+      "pressure_hpa": 960.0,
+      "tm_fc": "202611100600",
       "typ_seq": "2026-32"
     },
     "2026-32-2": {
